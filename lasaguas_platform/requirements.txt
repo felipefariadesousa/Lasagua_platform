@@ -1,2 +1,0 @@
-#bibliotecas que precisam ser instaladas para o processamento dos dados
-pip install eodag
