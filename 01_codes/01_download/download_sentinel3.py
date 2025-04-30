@@ -16,7 +16,7 @@ Versão: 1.0.0
 
 # Importa funcionalidades do sistema para manipulação de caminhos e pacotes
 import sys  # Usado para adicionar diretórios ao sys.path e permitir importações de outros diretórios
-sys.path.append('./codebase_download')  # Adiciona o diretório onde está localizado o módulo copernicus_downloader.py
+sys.path.append('./codebase')  # Adiciona o diretório onde está localizado o módulo copernicus_downloader.py
 
 # Importa a classe CopernicusDownloader do arquivo copernicus_downloader.py
 from copernicus_downloader import CopernicusDownloader  # Classe principal usada para buscar e baixar produtos da API do Copernicus
