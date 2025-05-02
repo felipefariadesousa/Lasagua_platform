@@ -40,8 +40,8 @@ list_scenes = CopernicusDownloader().search_product(start_date, end_date, polygo
 
 # Realizando o download em massa: A linha de código abaixo irá baixar cada cena com seus respectivos ID's a partir da lista de cenas encontradas anteriormente. 
 # IMPORTANTE: É necessário ter cadastro em: https://www.copernicus.eu/en
-username = "luizfelipemfds@ufrj.br" #login
-password = "#Luiz20191997#$" #senha
+username = "username" #login
+password = "password" #senha
 
 #Diretório para onde os arquivos baixados ficarão armazenados. Se nenhum diretório for inserido, as imagens serão destinadas o diretório atual.
 output = "/home/de-sousa/Documents/lasa_alarmes_agua/02_raw_scenes/sentinel3" #obs: Ao mudar o diretório, certifique-se de inserir o caminho relativo à sua máquina (ex: home/fulano/raw_scenes)
